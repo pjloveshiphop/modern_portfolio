@@ -6,6 +6,23 @@
     box-sizing: border-box;
 }
 
+
+button{
+    
+    margin-top: 3rem;
+    width: auto;
+    background: $primary-color;
+    color: set-text-color($primary-color);
+    &:hover{
+        color: $secondary-color;
+        @include easeOut();
+    }
+        
+    
+        
+    
+}
+
 body{
     @include background;
     background: $primary-color;

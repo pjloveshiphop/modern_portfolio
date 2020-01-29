@@ -93,6 +93,15 @@
 * {
   box-sizing: border-box; }
 
+button {
+  margin-top: 3rem;
+  width: auto;
+  background: #444;
+  color: white; }
+  button:hover {
+    color: #eece1a;
+    transition: all 0.5s ease-out; }
+
 body {
   background: #444;
   color: white;
